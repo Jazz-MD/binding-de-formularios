@@ -73,6 +73,8 @@ form {
   flex-direction: column;
   gap: 15px;
   justify-content: center;
+  background: #1c1a1e;
+  color: white;
 }
 form div {
   display: grid;
@@ -88,7 +90,10 @@ form div label {
 .carnet {
   width: 400px;
   height: 230px;
-  background: #1c1a1e;
+
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+
   color: white;
   border-radius: 20px;
   padding: 20px;
